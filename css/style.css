@@ -1,0 +1,467 @@
+.pc{display: none;}
+.m{display: block;}
+
+@font-face {
+    font-family: 'wantedSans';
+    src:url('../font/WantedSans-Medium.ttf') format('woff'),
+        url('../font/WantedSans-Regular.ttf') format('woff2');
+}
+body{
+    font-family: 'wantedSans' ;
+}
+header{
+    position: relative;
+    z-index: 10000;
+}
+header .wrap{
+    padding: 0 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+header .wrap h1{
+    margin-right: auto;
+}
+header .wrap h1 a{}
+header .wrap h1 a img{
+  height: 20px;
+}
+header .wrap .headsearch{display: none;}
+header .wrap .headicon{
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+}
+header .wrap .headicon .arrow{}
+header .wrap .headicon .arrow button{
+    padding-top: 4px;
+}
+header .wrap .headicon .arrow button img{
+    width: 25px;
+}
+header .wrap .headicon .mypage{padding-top: 2px;}
+header .wrap .headicon .mypage button{
+
+}
+header .wrap .headicon .mypage button img{
+    width: 20x;
+}
+header .wrap .headicon .heart{padding-top: 4px;}
+header .wrap .headicon .heart button{
+    padding-top: 4px;
+}
+header .wrap .headicon .heart button img{
+    width: 25px;
+}
+header .wrap .headicon .menu{padding-top: 3px;}
+header .wrap .headicon .menu button{
+    padding-top: 5px;
+}
+header .wrap .headicon .menu button img{
+    width: 20px;
+}
+header nav{
+   position: fixed;
+   top: 0;
+   left: -100%;
+   width: 100%;
+   height: 100%;
+   background-color:#fff;
+   transition: left 0.3s;
+}
+header nav ul{
+  padding: 20px 20px;
+}
+header nav ul li{
+    width: 100%;
+}
+header nav ul li a{
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+header nav .btn-close button{
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: end;
+    font-size: 20px;
+}
+header nav .navbottom{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+/* sssssssssssssssssss */
+
+.mySwiper3 {
+    z-index: none;
+    width: 100%;
+    height: 520px;
+  }
+  .banner .mySwiper3 .mysliimgde3 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+  }
+/*section 1 */
+.main1{padding: 25px 0;}
+.main1 .section1{padding: 25px 20px;}
+.main1 .section1 .txt-slider{display: none;}
+
+.main1 .section1 .sectionwrap .swmobil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.swiper{margin-bottom: 10px ;}
+/* section 1 */
+.main1 .section2{padding: 25px 20px;}
+.main1 .section2 .section2txt{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main1 .section2 .section2txt h2{
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+}
+.main1 .section2 .section2txt .artmore{
+    
+}
+.main1 .section2 .section2txt .artmore button{
+    width: 100%;
+    text-align: end;
+    color:#524B4B;
+}
+.main1 .section2 .container{
+    grid-template-columns:1fr 1fr;
+    gap:  10px;
+    display: grid; 
+}
+
+.main1 .section2 .container div:nth-child(7){
+    grid-column: 1/3; 
+    
+}
+.main1 .section2 .container .con{
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+.main1 .section2 .container .con a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.main1 .section2 .container .con a .conscreen{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    border-radius: 8px;
+}
+.main1 .section2 .container .con:hover a .conscreen{
+    opacity: 1;
+}
+.main1 .section2 .container .con a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.main1 .section2 .container div:nth-child(7) a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+/*.main1  section2 */
+.main2{
+    background-color:#e0d7d0;
+    padding: 25px 0;
+    border-radius: 8px;
+}
+.main2 .section3{
+    padding: 25px 20px ;
+    width: 100%;
+}
+.main2 .section3 .maintxt{
+    width: 100%; 
+}
+.main2 .section3 .maintxt h2{
+    width: 100%;
+    text-align: center;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;
+}
+.main2 .section3 .maintxt .mainbox{ 
+    margin-bottom: 20px;
+}
+.main2 .section3 .maintxt .mainbox form{
+    margin: 0 auto;
+    max-width:500px;
+    height: 49px;
+    background-color: #fff;
+    border-radius: 500px;
+}
+.main2 .section3 .maintxt .mainbox form .mainsrh{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.main2 .section3 .maintxt .mainbox form .mainsrh input{
+    text-overflow: ellipsis;
+    overflow: hidden;
+   text-align: start;
+    height: 100%;
+    width: 100%;
+    color: #554f4f; 
+    font-size: 16px;
+    padding-left: 20px; 
+    background-image: url(../image/arrow_icon.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-size: 25px;
+    border-radius: 400px;
+   
+}
+
+
+.main2 .section3 .mainimg{
+    margin-top: 50px;
+    width: 100%; 
+    position: relative;
+    height: 500px;
+    display: flex;
+   overflow-x: scroll;
+   overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: black gray
+    
+}
+
+.main2 .section3 .mainimg a{
+    height: 364px;
+}
+.main2 .section3 .mainimg a img{
+ max-width: 309px;
+ height: 364px;
+ object-fit: cover;
+}
+.main2 .section3 .mainimg div{}
+
+.main2 .section3 .mainimg div:nth-child(1){
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+.main2 .section3 .mainimg div:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 319px;
+
+}
+.main2 .section3 .mainimg div:nth-child(3){
+    position: absolute;
+    top: 20%;
+    left: 648px;
+}
+.main2 .section3 .mainimg div:nth-child(4){
+    position: absolute;
+    top: 10%;
+    left: 967px;;
+}
+/* sectiton3 */
+.main2 .section4{
+    width: 100%;
+    padding: 25px 0;
+}
+.main2 .section4 .figtxt{
+    width: 100%;
+    text-align: center;
+}
+.main2 .section4 .figtxt h2{
+    font-size: 24px;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.main2 .section4 .figimg{
+    width: 100%;
+}
+.main2 .section4 .figimg .figimg1{
+    position: relative;
+}
+.main2 .section4 .figimg .figimg1 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.main2 .section4 .figimg .figimg1 a .screen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    text-align: center;
+   padding: 100px 0;
+   opacity: 0;
+}
+.main2 .section4 .figimg .figimg1 a img{
+    height: 130px;
+    width: 100%;
+    object-fit: cover;
+}
+.main2 .section4 .figimg .figimg1 a .screen:hover{
+    opacity: 1;
+}
+.main2 .section4 .figimg .figimg1 a:hover img{
+    height: 230px;
+}
+.main2 .section4 .figmore{
+    padding: 50px 0 25px;
+
+}
+.main2 .section4 .figmore {
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+   align-items: center;
+}
+
+.main2 .section4 .figmore  .figbox{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+
+}
+.main2 .section4 .figmore  .figbox button{
+    padding: 20px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   font-size: 15px;
+}
+.main2 .section4 .figmore  .figbox button a{
+    display: flex;
+    gap: 10px;
+}
+.main2 .section4 .figmore  .figbox button a p{}
+.main2 .section4 .figmore  .figbox button a img{}
+
+footer{
+
+}
+footer .wrap{
+    margin: 0 auto;
+}
+footer .wrap .footerlogo{
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex; 
+    justify-content: center;
+}
+footer .wrap .footerlogo h1.footimg{
+    width: 200px;
+}
+footer .wrap .sns{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+footer .wrap .sns button>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+footer .wrap .sns .sns1 button{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+footer .wrap .sns .sns2 button{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+} 
+footer .wrap .sns .sns3{
+    padding-top: 3px;
+}
+footer .wrap .sns .sns3 button{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+  
+}
+footer .wrap .sns .sns4 button{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .wrap .footerline{
+    display: flex;
+    width: 100%;
+    height: 32px;
+    background-color: #f9f7f7;
+    font-size: 14px;
+    font-weight: lighter;
+}
+footer .wrap .footerline a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-wrap: wrap;
+    width: 25%;
+}
+footer .wrap .footertxt{
+    padding: 0 20px;
+    text-wrap: wrap;
+    font-size: 15px;
+    color: #5d5d5d;
+}
+footer .wrap .footertxt .footertxt1-2{display: none;}
+footer .wrap .footertxt .footertxt1-3{display: none;}
